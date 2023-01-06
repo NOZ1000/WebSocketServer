@@ -54,12 +54,12 @@ return [
     /*
      * The maximum request size in kilobytes that is allowed for an incoming WebSocket request.
      */
-    'max_request_size_in_kb' => 2500,
+    'max_request_size_in_kb' => 250,
 
     /*
      * This path will be used to register the necessary routes for the package.
      */
-    'path' => 'laravel-websockets',
+    'path' => 'panel',
 
     /*
      * Dashboard Routes Middleware
@@ -90,7 +90,7 @@ return [
         /*
          * Here you can specify the interval in seconds at which statistics should be logged.
          */
-        'interval_in_seconds' => 60,
+        'interval_in_seconds' => 30,
 
         /*
          * When the clean-command is executed, all recorded statistics older than
